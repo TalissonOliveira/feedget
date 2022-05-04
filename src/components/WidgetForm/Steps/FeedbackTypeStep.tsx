@@ -12,7 +12,7 @@ export function FeedbackTypeStep({ onChangeFeedbackType }: FeedbackTypeStepProps
         <span className="text-xl leading-6">Deixe seu feedback</span>
         <CloseButton />
       </header>
-      <div className="flex py-8 gap-2 w-full">
+      <div className="flex pt-8 pb-12 gap-2 w-full">
         {Object.entries(feedbackTypes).map(([key, value]) => (
           <button
             key={key}
